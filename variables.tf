@@ -7,13 +7,13 @@ variable "region" {
 variable "cluster_name" {
   description = "EKS cluster name"
   type        = string
-  default     = "EKS_CLOUD"
+  default     = "eks-demo"
 }
 
 variable "node_group_name" {
   description = "EKS node group name"
   type        = string
-  default     = "Node-cloud"
+  default     = "eks-workernode"
 }
 
 variable "instance_types" {
